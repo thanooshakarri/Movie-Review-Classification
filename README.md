@@ -3,16 +3,14 @@ This code consists of a text classification model that uses logistic regression 
 
 Files:
 
-├── LICENSE
-├── README.md                           <- Introduction of repository
-├── requirements.txt                    <- Python packages requirement file
-├── data                                <- Dataset
-|   |____ train.csv                     <- Train data
-|   |____ test.csv                      <- Test data
-├── src                                 <- Source code
-|   |____ Classifier.py                 <- Text Classifier
-|   |____ Featurization.py              <- pre-processing and feature extraction.
-|   |____ Model.ipynb                   <- model
+├── README.md             <- Introduction of repository
+├── requirements.txt      <- Python packages requirement file
+├── data                  <- Dataset
+|   |____ train.csv       <- Train data
+|   |____ test.csv        <- Test data
+├── src                   <- Source code
+|   |____ Classifier.py   <- Text Classifier, pre-processing and feature extraction.
+|____ Model.ipynb         <- model
 
 Usage:
 
