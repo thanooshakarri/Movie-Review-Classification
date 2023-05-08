@@ -27,6 +27,7 @@ class Classifier:
     #this method is used to fit the data
     data["TEXT"]=data["TEXT"].astype(str)
     pre_processed_data=self.feature_obj.get_features(data)
+    self.le.fit(data)
     self.Logistic_R.fit(pre_processed_data,self.le.transform(label))
   def predict(self,data):
     #this method is used to predict classifier with model
