@@ -13,3 +13,8 @@ black
 torch==1.10.2
 pytorch-lightning
 graphviz==0.16
+langid==1.1.6
+nltk==3.6.3
+scikit-learn==1.0.1
+scipy==1.7.1
+textblob==0.15.3
