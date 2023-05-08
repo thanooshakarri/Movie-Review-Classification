@@ -2,7 +2,7 @@
 This code consists of a text classification model that uses logistic regression algorithm to classify text into two categories. The Featurization class uses the TfidfVectorizer from scikit-learn to convert text into numerical features, and also applies preprocessing steps such as removing HTML tags, lemmatization, and language detection. The Classifier class uses the logistic regression algorithm to train on the features and labels provided, and can predict the labels of new text data.
 
 Files:
-
+```
 ├── README.md             <- Introduction of repository
 ├── requirements.txt      <- Python packages requirement file
 ├── data                  <- Dataset
@@ -11,6 +11,7 @@ Files:
 ├── src                   <- Source code
 |   |____ Classifier.py   <- Text Classifier, pre-processing and feature extraction.
 |____ Model.ipynb         <- model
+```
 
 Usage:
 
